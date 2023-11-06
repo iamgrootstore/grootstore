@@ -1,0 +1,48 @@
+body {font-family: Helvetica, Arial;
+    background-image: url('bordergroot.png');
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    margin-left: 5%;
+}
+h2{
+    font-family: Helvetica, sans-serif;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: rgb(155, 104, 70);
+position: fixed;
+top: 0;
+width: 100%;
+}
+li {
+float: left;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: rgba(155, 104, 70, 0.733);
+}
+
+.active {
+          background-color: #7921217c;
+}
